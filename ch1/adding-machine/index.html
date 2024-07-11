@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html ng-app lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Adding Machine</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.js"></script>
+    </head>
+    <body>
+        <div ng-app="myApp">
+            <div ng-controller="FirstController">
+                <h4>Simple Adding Machine</h4>
+                <button ng-click="add(1)" class="button">Add</button>
+                <a ng-click="subtract(1)" class="button alert">Subtract</a>
+                <h4>Current Count: {{ counter }}</h4>
+            </div>
+        </div>
+        <script type="text/javascript" src="./js/app.js"></script>
+    </body>
+</html>
