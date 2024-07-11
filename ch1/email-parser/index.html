@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html ng-app="myApp" lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Interpolate String Template Example</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular.js"></script>
+    </head>
+    <body>
+        <div id="emailEditor" ng-controller="MyController">
+            <input ng-model="to" type="email" placeholder="Recipient" />
+            <textarea ng-model="emailBody"></textarea>
+
+            <div id="emailPreview">
+                <pre>__ previewText __</pre>
+            </div>
+        </div>
+        <script type="text/javascript" src="./js/app.js"></script>
+    </body>
+</html>
